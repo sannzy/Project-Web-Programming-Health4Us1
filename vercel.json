@@ -1,5 +1,4 @@
 {
-    
     "version": 2,
     "framework": null,
     "functions": {
@@ -11,5 +10,25 @@
     ],
     "public": true,
     "buildCommand": "vite build",
-    "outputDirectory": "public"
+    "outputDirectory": "public",
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://health4us-nine.vercel.app",
+        "APP_KEY": "base64:40852ed9aylQR/NHdKe54aSsrQN+/F3BjCHJaoaELxM=",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "4gg.h.filess.io",
+        "DB_PORT": "3306",
+        "DB_DATABASE": "db2026_stormtorn",
+        "DB_USERNAME": "db2026_stormtorn"
+    }
 }
